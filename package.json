@@ -1,0 +1,17 @@
+{
+  "name": "units-loader",
+  "version": "1.0.3",
+  "description": "ccs post unit change",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "loader"
+  ],
+  "author": "Lanjue",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+  }
+}
