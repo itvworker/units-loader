@@ -1,6 +1,6 @@
 {
   "name": "units-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ccs post unit change",
   "main": "index.js",
   "keywords": [

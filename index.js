@@ -39,7 +39,7 @@ module.exports = function (source) {
     // let reg = /([0-9]+rpx)|([0-9]+.[0-9]?rpx)/g;
 
     source = source.replace(reg, function(word){
-        return Math.round(parseFloat(word.slice(0,-3))/divisor*byte)/byte+unit
+        return parseInt(parseFloat(word.slice(0,-3))/divisor*byte)/byte+unit
     })
 
     return source
